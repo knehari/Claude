@@ -28,6 +28,7 @@
   .hero .big{font-size:96px;font-weight:800;line-height:1;margin:8px 0 2px;font-variant-numeric:tabular-nums}
   .hero .big small{font-size:32px;color:var(--muted);font-weight:600}
   .hero .verdict{display:inline-flex;gap:6px;align-items:center;font-weight:600;margin-top:10px}
+  .delta{font-size:14px;color:var(--muted)}
   .hero p{color:var(--ink-2);margin:12px 0 0;font-size:14px}
   .legend{display:flex;gap:16px;flex-wrap:wrap;font-size:13px;color:var(--ink-2);margin-bottom:14px}
   .legend span{display:inline-flex;align-items:center;gap:6px}
@@ -53,23 +54,26 @@
   .ex{font-family:ui-monospace,Menlo,monospace;font-size:12.5px;background:var(--track);border-radius:8px;padding:8px 10px;color:var(--ink);white-space:pre-wrap}
   .impact{font-size:12px;color:var(--muted)}
   section{margin-top:28px}
+  .warn{margin-top:20px;border:1px solid var(--warn);border-left:6px solid var(--warn);background:var(--surface);border-radius:12px;padding:16px 18px}
+  .warn h3{margin:0 0 6px;font-size:16px}
+  .warn p{margin:0;color:var(--ink-2);font-size:14px}
 </style>
 </head>
 <body>
 <div class="wrap">
   <header>
     <h1>Audit LinkedIn — Karim Nehari</h1>
-    <p>Product Manager PKI &amp; CLM · AXA Group Operations · 3 707 abonnés · audit du 31 octobre 2026</p>
-    <p class="note">Objectif retenu par défaut (non précisé) : visibilité d'expert PKI / post-quantique → missions, conférences, prochain poste senior.
-      Sélection et Recommandations n'apparaissent ni dans le PDF ni dans les captures : leurs notes sont estimées.</p>
+    <p>Product Manager PKI &amp; CLM · AXA Group Operations · 3 707 abonnés · audit n°2 du 31 octobre 2026</p>
+    <p class="note">Objectif : plus d'abonnés et de réactions, des invitations comme speaker, des missions freelance en parallèle d'AXA, des partenariats/sponsoring tech.
+      Sélection et Recommandations n'apparaissent ni dans le PDF ni dans les captures : notes estimées.</p>
   </header>
 
   <div class="grid">
     <div class="card hero">
       <div class="lbl">Note globale</div>
-      <div class="big">4,7<small>/10</small></div>
-      <div class="verdict" style="color:var(--bad)">▲ Expertise de premier plan, vitrine moyenne</div>
-      <p>Le fond vaut 8/10 : ISO 27099, ICAO 9303, PKI d'État luxembourgeoise, 17 ans. La forme le vend à 4/10 : rien en haut de profil ne fait comprendre en 5 secondes pourquoi vous êtes une référence.</p>
+      <div class="big">5,1<small>/10</small></div><div class="delta">4,7 au premier audit · +0,4</div>
+      <div class="verdict" style="color:var(--bad)">▲ La vitrine s'améliore, le moteur ne tourne pas</div>
+      <p>Bannière, nom et compétences ont progressé. Mais votre objectif est l'audience et les sollicitations, et rien dans le profil ne dit qu'on peut vous inviter, vous solliciter ou travailler avec vous. Et l'activité reste trop faible pour faire grandir l'audience.</p>
     </div>
 
     <div class="card">
@@ -87,48 +91,51 @@
     <h2>Par où commencer</h2>
     <ol class="fix">
       <li><div class="num">1</div><div>
-        <h3>Exploiter la conférence du 5 novembre — cette semaine</h3>
-        <p>Vous êtes l'intervenant vedette du Cyber Breakfast DEEP (Luxembourg) et vous vous êtes contenté d'un repost. C'est la meilleure preuve d'autorité de votre fil, et elle est affichée comme le contenu de quelqu'un d'autre.</p>
-        <p>À faire : un post à vous d'ici lundi (3 idées clés que vous allez défendre + invitation), puis un post de restitution le 6 avec photo de vous sur scène, épinglé dans « Sélection ».</p>
-        <div class="impact">Impact : crédibilité « speaker » immédiate, contenu réutilisable pour la bannière et la Sélection.</div>
+        <h3>Publier le post DEEP avant mercredi, puis tenir une cadence</h3>
+        <p>L'événement du 5 novembre est votre meilleur levier d'abonnés et d'invitations futures, et votre fil ne montre toujours qu'un repost. Publiez votre post d'annonce lundi, puis un récapitulatif le 6 avec photo sur scène.</p>
+        <p>Ensuite : 2 posts écrits par vous par semaine, avec un point de vue terrain, des visuels réels plutôt que des images IA, et 15 minutes par jour de commentaires de fond sous les posts de comptes PKI/PQC plus gros que le vôtre.</p>
+        <div class="impact">Impact : abonnés et réactions. C'est le seul levier qui fait croître l'audience ; le profil ne fait que la convertir.</div>
       </div></li>
       <li><div class="num">2</div><div>
-        <h3>Refaire le haut du profil : bannière + titre</h3>
-        <p>La tour Eiffel ne dit rien de vous. Le titre empile du jargon et une formule creuse (« Building the Future of Trust ») au lieu de vos preuves.</p>
-        <div class="ex">PKI &amp; Post-Quantum Cryptography | Crypto-agility pour grands groupes | Contributeur ISO 27099 &amp; ICAO 9303 | Speaker | Product Manager @AXA</div>
-        <p>Bannière : une phrase de promesse (« Préparer les entreprises au post-quantique ») + 3 logos/preuves (ISO, ICAO, eIDAS) + « Speaker PKI / PQC ».</p>
-        <div class="impact">Impact : c'est ce que voit 100 % des visiteurs, y compris en recherche et en commentaire.</div>
+        <h3>Réparer « Infos » et y mettre une offre claire</h3>
+        <p>Le texte affiche des codes HTML (« &amp;nbsp; », « &amp;amp; ») et des mots collés (« core.Since », « backgroundI am »). Pour un expert de la rigueur, c'est le pire signal possible.</p>
+        <p>Réécrivez-le en terminant par un bloc « Speaking &amp; advisory » : 3 sujets de conférence, les formats possibles (keynote, atelier, formation) et comment vous contacter. Alignez le titre sur la bannière (il n'a pas changé).</p>
+        <div class="impact">Impact : vos visiteurs de profil deviennent des invitations au lieu de repartir.</div>
       </div></li>
       <li><div class="num">3</div><div>
-        <h3>Corriger les signaux faibles : compétences, coquilles, poste actuel vide</h3>
-        <p>Top 3 compétences actuelles : « Anglais parlé, Cyber-sécurité, Stratégie ». Remplacez par PKI, Post-Quantum Cryptography, Certificate Lifecycle Management.</p>
-        <p>Corrigez « Strengthene » / « Represente », décrivez le poste « Global Certificate Services PM » (janv. 2026, vide), supprimez les lignes « Keywords: » et ajoutez des chiffres (nombre de certificats, d'entités, de pays, % d'automatisation).</p>
-        <div class="impact">Impact : recherche recruteurs/clients sur « PKI » et « PQC », et fin des signaux de négligence.</div>
+        <h3>Créer les preuves : Sélection, bouton, recommandations</h3>
+        <p>Organisateurs et partenaires achètent des preuves. Épinglez le récapitulatif DEEP, un post de fond sur le post-quantique et une ressource (slides, article). Ajoutez le bouton personnalisé « Invite me to speak ».</p>
+        <p>Demandez 3 recommandations ciblées : un organisateur d'événement, un participant à une de vos formations PKI, un ancien manager.</p>
+        <div class="impact">Impact : crédibilité pour le speaking et les partenariats, la condition pour être payé.</div>
       </div></li>
     </ol>
+    <div class="warn">
+      <h3>! Avant tout freelance ou sponsoring : votre cadre avec AXA</h3>
+      <p>Vous êtes Product Manager PKI/CLM chez AXA, donc en position d'acheteur face aux éditeurs du secteur. Être sponsorisé par l'un d'eux, ou faire des missions pour un concurrent, peut constituer un conflit d'intérêts. Vérifiez votre contrat (clause d'exclusivité ou de non-concurrence) et le code de conduite d'AXA, et faites valider votre activité annexe par écrit. Privilégiez les partenariats hors de vos fournisseurs actuels ou potentiels, et signalez clairement tout contenu sponsorisé.</p>
+    </div>
   </section>
 </div>
 
 <script>
 const S = [
-  {n:"Photo", s:8, ok:"Photo pro, cadrage serré, fond bleu lumineux, regard caméra : elle inspire confiance.",
-   ko:"Rien de bloquant ; seuls les émojis 🌍🔐 accolés au nom font gadget et polluent votre nom dans les recherches et mentions."},
-  {n:"Bannière", s:3, ok:"Image nette et bien cadrée autour de la photo.",
-   ko:"Une carte postale de Paris : zéro message, zéro preuve, zéro mot-clé — vous gâchez l'espace le plus visible du profil."},
-  {n:"Titre", s:6, ok:"Les bons mots-clés (PKI, CLM, Crypto-Agility, Post-Quantum) sont présents.",
-   ko:"Trop long, tronqué dans les fils (« Driving … ») et sans aucune preuve : vos contributions ISO/ICAO, votre vrai différenciateur, n'y figurent pas."},
-  {n:"Infos (à propos)", s:6, ok:"Bien structuré, crédible, avec un appel à l'action « conference speaker ».",
-   ko:"Aucun chiffre, des formules génériques (« competitive advantage », « future of cryptography ») et votre meilleure histoire — docteur en physique quantique devenu expert post-quantique — est absente."},
-  {n:"Expérience", s:5, ok:"Parcours rare et cohérent : BNP, ANTS, PKI nationale luxembourgeoise, ISO, AXA.",
-   ko:"Poste actuel sans description, fautes (« Strengthene », « Represente »), blocs « Keywords: » qui font CV d'ATS, 3 postes INCERT copiés-collés et zéro résultat chiffré."},
-  {n:"Compétences", s:3, ok:"Les certifications (nCSE, ISO 27001 LI, SAFe) crédibilisent la technique.",
-   ko:"Votre top 3 affiché est « Anglais parlé, Cyber-sécurité, Stratégie » : un recruteur qui cherche « PKI » ou « PQC » ne vous trouve pas par là."},
-  {n:"Sélection", s:2, est:true, ok:"Vous avez la matière : post NIST IR 8547, conférence DEEP, normes ISO 27099 / ICAO 9303.",
-   ko:"Non visible dans vos documents donc vraisemblablement vide : le visiteur n'a aucune preuve cliquable de votre expertise."},
-  {n:"Recommandations", s:4, est:true, ok:"Avec 500+ relations et des clients publics (gouvernements, banques), le vivier existe.",
-   ko:"Absentes du PDF et des captures : sans 3 recommandations récentes de managers ou clients, votre « expert » reste auto-proclamé."},
-  {n:"Activité", s:5, ok:"Vous publiez régulièrement et sur les bons sujets (NIST IR 8547, PQC).",
-   ko:"15 réactions et 1 025 impressions pour 3 707 abonnés : accroche plate, visuel IA générique, et vous repostez au lieu d'écrire quand vous êtes vous-même l'orateur."}
+  {n:"Photo", s:8, ok:"Professionnelle, lumineuse, regard caméra ; les émojis ont disparu de votre nom.",
+   ko:"Les émojis 🌍🔐 apparaissent encore dans la barre du haut et sous vos posts : vérifiez que la version English du profil est aussi corrigée."},
+  {n:"Bannière", s:8, ok:"Message clair, positionnement crypto-agilité et post-quantique, preuves implicites : elle fait enfin le travail.",
+   ko:"Aucune invitation à l'action : rien n'indique qu'on peut vous faire intervenir ou vous contacter pour une mission."},
+  {n:"Titre", s:5, ok:"Les bons mots-clés sont présents (PKI, CLM, Crypto-Agility, Post-Quantum).",
+   ko:"Pas encore mis à jour : il contredit la nouvelle bannière, ne mentionne ni « Speaker » ni « Advisor », et « Building the Future of Trust » reste creux."},
+  {n:"Infos (à propos)", s:4, ok:"Le fond est solide et le « Since 2009 » a remplacé les années.",
+   ko:"La mise en forme est cassée (« &amp;nbsp; », mots collés, plus de paragraphes) et il n'existe aucune offre concrète de conférence ou de mission avec un moyen de contact."},
+  {n:"Expérience", s:5, ok:"Parcours rare : BNP, ANTS, PKI d'État luxembourgeoise, ISO, AXA.",
+   ko:"Rien n'a changé : poste actuel vide, « Strengthene » et « Represente » toujours là, blocs « Keywords: » et aucun résultat chiffré."},
+  {n:"Compétences", s:6, ok:"Le top 3 est devenu PKI, Cybersécurité, CLM : vous êtes enfin trouvable sur votre métier.",
+   ko:"« Cybersécurité » est générique là où « Post-Quantum Cryptography » ou « Crypto-Agility » vous distingueraient, et vos publications affichées datent de 2007 et parlent de nano-transistors."},
+  {n:"Sélection", s:2, est:true, ok:"Vous avez la matière : conférence DEEP, post NIST IR 8547, travaux de normalisation.",
+   ko:"Toujours rien de visible : un organisateur ou un sponsor n'a aucune preuve cliquable de ce que vous valez sur scène."},
+  {n:"Recommandations", s:4, est:true, ok:"Vous avez formé des gouvernements et des entreprises : le vivier existe.",
+   ko:"Pour le speaking et le freelance, il faut des témoignages d'organisateurs et de clients, et aucun n'est visible."},
+  {n:"Activité", s:4, ok:"Vous publiez sur les bons sujets, au bon moment.",
+   ko:"15 réactions pour 3 707 abonnés, des visuels IA génériques et un simple repost de l'événement où vous êtes l'orateur : cette activité ne fera pas grandir l'audience."}
 ];
 const col = s => s>=7?["var(--good)","✓"]:s>=5?["var(--warn)","!"]:["var(--bad)","✕"];
 const root = document.getElementById("rows");
