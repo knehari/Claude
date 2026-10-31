@@ -21,7 +21,7 @@ _Mis à jour le 31/10/2026 à partir de l'export PDF du profil, puis de la captu
 - 3 707 abonnés, plus de 500 relations
 - Statistiques de départ (période à confirmer) : 345 vues du profil, 1 328 impressions de post, 150 apparitions dans les recherches
 - Pas de bouton personnalisé. Sélection, recommandations et activité : non vues
-- « Speaker » affiché dans la bannière, le titre et l'À propos : aucune intervention citée à ce jour (à confirmer)
+- « Speaker » affiché dans la bannière, le titre et l'À propos : confirmé par Karim. Speaker et formateur à de nombreuses reprises au Luxembourg (période INCERT), interventions internes chez AXA. À venir : intervention à Luxembourg le 5 novembre 2026 (événement à nommer), formation en Inde du 16 au 29 novembre 2026. Devenir speaker plus souvent fait partie de ses objectifs. Reste à rendre ces interventions visibles sur le profil (Sélection, posts, expériences)
 
 ## Piliers de contenu (proposés à partir de « What I focus on now » de l'À propos, à valider)
 1. Crypto-agilité : savoir où la cryptographie est utilisée et pouvoir la changer sans casser la production
@@ -33,4 +33,4 @@ _Mis à jour le 31/10/2026 à partir de l'export PDF du profil, puis de la captu
 _Premières observations à partir de l'À propos uniquement. À établir avec `linkedin-humanizer --mode profile` sur de vrais posts._
 - Ton : direct, sobre, phrases courtes, première personne, pas de superlatifs
 - Expressions typiques : « That's the problem I work on. », « what has to start now, and what can wait », « Quantum came back to me through cryptography. »
-- À éviter : jargon commercial, promesses non prouvées (ex. « Speaker » sans référence), tout chiffre non validé pour publication par AXA. Le profil indique « Views are my own » : garder la séparation entre l'avis personnel et l'employeur
+- À éviter : jargon commercial, promesses non prouvées, tout chiffre non validé pour publication par AXA. Le profil indique « Views are my own » : garder la séparation entre l'avis personnel et l'employeur
