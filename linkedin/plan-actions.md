@@ -12,7 +12,7 @@ Tout se fait depuis votre profil (Vous → Voir le profil). **Faites chaque modi
 Crayon sous la bannière → champ « Titre » → remplacer par :
 
 ```
-PKI & Crypto-Agility | Post-Quantum Readiness | From ePassports to enterprise CLM | Speaker | Product Manager @AXA
+Global Product Manager, Certificate Services @AXA | PKI, Crypto-Agility & Post-Quantum strategy | From ePassports to enterprise CLM | Speaker
 ```
 
 Dans le même écran, vérifiez que le **prénom et le nom** ne contiennent plus d'émojis (ils apparaissent encore sous vos posts).
@@ -47,6 +47,7 @@ Après le 5 novembre, ajoutez sous « Speaking » : `Recent: DEEP Cyber Breakfas
 
 ### 1.3 Expérience (20 min)
 Crayon sur chaque poste :
+- **Intitulés des deux postes AXA** : retirez « and PKI Expert » (« Global Certificate Services Product Manager », « PKI and CLM Product Owner »). Ce mot attire les offres d'expert technique.
 - **PKI and CLM Product Owner** : « Strengthene » → « Strengthened », « Represente » → « Represented ». Supprimez le paragraphe « Keywords: … ».
 - **PKI Application Manager**, **INCERT** (3 postes) : supprimez les paragraphes « Keywords: … ».
 - **Global Certificate Services Product Manager (janv. 2026)** : il est vide. Ajoutez 3 lignes avec **vos vrais chiffres** :
@@ -59,6 +60,9 @@ Leading certificate services for AXA entities worldwide: PKI, certificate lifecy
 ```
 
 Ne publiez aucun chiffre qu'AXA considérerait comme confidentiel : préférez des ordres de grandeur (« 100k+ certificates »).
+
+### 1.3 bis Préférences de carrière (5 min)
+« Mes objectifs » (sous votre titre) → préférences de carrière, visibles des recruteurs uniquement : intitulés visés du type Head of PKI / Digital Trust, Senior Product Manager, Product Director. Retirez « PKI Expert », « PKI Engineer » ou « PKI Consultant » s'ils y figurent.
 
 ### 1.4 Compétences (5 min)
 Section « Compétences » → crayon → ajoutez « Post-Quantum Cryptography » et « Crypto-Agility » → épinglez en top 3 : **PKI, Post-Quantum Cryptography, Certificate Lifecycle Management** (« Cybersécurité » sort du top 3).
