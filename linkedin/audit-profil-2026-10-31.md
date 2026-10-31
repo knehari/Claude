@@ -1,5 +1,7 @@
 # Audit du profil LinkedIn de Karim Nehari : 31/10/2026
 
+> **Remplacé par la v2** : `audit-profil-2026-10-31-v2.md` (nouvel export PDF + capture du haut du profil, note 7,2/10 sur 80 % de la grille). Ce document reste la référence pour les réécritures que la v2 renvoie ici (sections 4.2 et 5).
+
 **Statut : audit réalisé** à partir de l'export PDF du profil (7 pages, fourni par Karim le 31/10/2026).
 
 **Méthode** : grille du skill `linkedin-profile-optimizer` (plugin linkedin-skills). Le plugin n'est pas installé dans cette session : la grille définie lors du premier passage (section 2) est appliquée telle quelle.
