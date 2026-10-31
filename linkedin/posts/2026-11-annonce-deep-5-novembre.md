@@ -48,11 +48,10 @@ If you're in Luxembourg, come and say hello over coffee. If you join online, tel
 
 ## Version B : Angle retour au Luxembourg / parcours (recommandée)
 
-Longueur : **1213 caractères** espaces compris (limite LinkedIn : 3 000). Le tag « @DEEP » sera remplacé par le nom de la page, donc la longueur finale variera de quelques caractères.
+Longueur : **1175 caractères** espaces compris (limite LinkedIn : 3 000). Le tag « @DEEP » sera remplacé par le nom de la page, donc la longueur finale variera de quelques caractères.
 
 ```text
 From 2016 to 2020, I worked in Luxembourg on the governmental PKIs behind the ePassport, the eID card and the residence permit.
-I spoke and trained there many times.
 
 On 5 November, I'm coming back to speak at the @DEEP breakfast.
 
@@ -102,14 +101,14 @@ See you there, in person or online.
 
 Ce qui s'affiche avant « voir plus » (environ 2 lignes sur mobile, 3 sur ordinateur) :
 - A : « From March 2029, public TLS certificates will last 47 days at most. / At the same time, organisations have to prepare the move to post-quantum cryptography. »
-- B : « From 2016 to 2020, I worked in Luxembourg on the governmental PKIs behind the ePassport, the eID card and the residence permit. / I spoke and trained there many times. »
+- B : « From 2016 to 2020, I worked in Luxembourg on the governmental PKIs behind the ePassport, the eID card and the residence permit. »
 - C : « On 5 November, I'm speaking at the @DEEP breakfast in Luxembourg. »
 
 ## Recommandation
 
 **Version B.**
 - Elle apporte ce que le post DEEP n'a pas : l'histoire personnelle de Karim au Luxembourg, racontée à la première personne.
-- L'accroche parle directement à l'audience luxembourgeoise : INCERT, ePassport et eID y sont connus. Elle prouve aussi la mention « Speaker » du profil (« I spoke and trained there many times »), ce qui répond au point n°2 de l'audit v2.
+- L'accroche parle directement à l'audience luxembourgeoise : INCERT, ePassport et eID y sont connus.
 - Elle garde l'urgence (47 jours, post-quantique) et la définition de la crypto-agilité tirée de l'À propos de Karim (« change it without breaking production »), donc sa voix.
 
 La version A est la meilleure pour une audience large hors Luxembourg (accroche par le problème). Sa matière pourra servir au post de retour d'expérience après le 5/11. La version C convient si Karim veut un post sobre et rapide à lire, ou comme rappel le matin même.
