@@ -187,3 +187,26 @@ Si vous êtes dans le coin, je serai ravi de revoir des visages connus. Et si vo
 
 #PKI #CLM #PostQuantum #CryptoAgility #Luxembourg
 ```
+
+---
+
+## Version D en français : courte et tranchante (demandée par Karim)
+
+```text
+47 jours.
+C'est la durée de vie maximale des certificats TLS publics en mars 2029. Elle est déjà passée à 200 jours en mars 2026.
+
+En parallèle, la migration post-quantique impose de remplacer des algorithmes présents dans presque tous nos systèmes.
+
+Deux échéances, un même prérequis : savoir où est sa cryptographie, et pouvoir la changer sans casser la production.
+C'est ça, la crypto-agilité. Et la plupart des organisations n'y sont pas.
+
+J'en parlerai le 5 novembre au Luxembourg, où j'ai passé quatre ans sur les PKI gouvernementales (passeport, eID, titre de séjour), au petit-déjeuner organisé par @DEEP :
+→ pourquoi le CLM est le point de départ
+→ ce qui doit commencer maintenant pour le post-quantique, et ce qui peut attendre
+
+Jeudi 5 novembre, 8h30-10h30, 1 rue Emile Bian, et à distance.
+Inscription : https://lnkd.in/eF7ieDyU
+
+#PKI #CLM #PostQuantum #CryptoAgility
+```
