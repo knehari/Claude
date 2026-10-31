@@ -1,0 +1,39 @@
+<!DOCTYPE html><html><head><meta charset="utf-8">
+<style>
+*{margin:0;box-sizing:border-box}
+body{width:1584px;height:396px;overflow:hidden;font-family:"Inter","Helvetica Neue",Arial,sans-serif;
+ background:radial-gradient(ellipse at 18% 30%,#12315a 0%,#0a1a33 55%,#071226 100%);color:#eef3fa;position:relative}
+svg{position:absolute;inset:0}
+.txt{position:absolute;left:600px;top:62px;width:900px}
+.k{font-size:20px;letter-spacing:.16em;text-transform:uppercase;color:#5fc4e8;font-weight:600}
+h1{font-size:50px;line-height:1.12;font-weight:700;margin:16px 0 22px;letter-spacing:-.01em}
+.p{font-size:21px;color:#b9c7da;line-height:1.5}
+.p b{color:#eef3fa;font-weight:600}
+.sep{display:inline-block;width:5px;height:5px;border-radius:50%;background:#5fc4e8;margin:0 12px 4px}
+</style></head><body>
+<svg width="1584" height="396" id="s"></svg>
+<div class="txt">
+  <div class="k">PKI · Post-Quantum · Crypto-Agility</div>
+  <h1>Getting enterprise cryptography<br>ready for the post-quantum era</h1>
+  <div class="p"><b>17 years</b> of PKI for government, banking &amp; insurance<br>Contributor to <b>ISO/IEC 27099</b> &amp; <b>ICAO Doc 9303</b><span class="sep"></span><b>Speaker</b></div>
+</div>
+<script>
+// lattice: regular grid with small skew, fading to the right
+const s=document.getElementById('s'),NS='http://www.w3.org/2000/svg';
+const step=44,ax=[1,0.18],ay=[0.32,1];let pts=[];
+for(let i=-4;i<20;i++)for(let j=-3;j<12;j++){
+ const x=i*step*ax[0]+j*step*ay[0], y=i*step*ax[1]*0.5+j*step*ay[1]-30;
+ if(x<-20||x>620||y<-20||y>420)continue;
+ const o=Math.max(0,1-x/600)*0.9; pts.push({x,y,o,i,j});
+}
+const key=new Map(pts.map(p=>[p.i+','+p.j,p]));
+pts.forEach(p=>{[[1,0],[0,1]].forEach(([di,dj])=>{const q=key.get((p.i+di)+','+(p.j+dj));if(!q)return;
+ const l=document.createElementNS(NS,'line');l.setAttribute('x1',p.x);l.setAttribute('y1',p.y);l.setAttribute('x2',q.x);l.setAttribute('y2',q.y);
+ l.setAttribute('stroke','#5fc4e8');l.setAttribute('stroke-opacity',(Math.min(p.o,q.o)*0.4).toFixed(3));l.setAttribute('stroke-width','1');s.appendChild(l);});});
+pts.forEach(p=>{const c=document.createElementNS(NS,'circle');c.setAttribute('cx',p.x);c.setAttribute('cy',p.y);c.setAttribute('r',2.2);
+ c.setAttribute('fill','#5fc4e8');c.setAttribute('fill-opacity',(p.o*0.85).toFixed(3));s.appendChild(c);});
+// a short highlighted "basis" path
+const hi=[[3,1],[4,1],[4,2],[5,2],[5,3]].map(([i,j])=>key.get(i+','+j)).filter(Boolean);
+for(let k=0;k<hi.length-1;k++){const l=document.createElementNS(NS,'line');l.setAttribute('x1',hi[k].x);l.setAttribute('y1',hi[k].y);l.setAttribute('x2',hi[k+1].x);l.setAttribute('y2',hi[k+1].y);l.setAttribute('stroke','#5fc4e8');l.setAttribute('stroke-width','2');l.setAttribute('stroke-opacity','.8');s.appendChild(l);}
+hi.forEach(p=>{const c=document.createElementNS(NS,'circle');c.setAttribute('cx',p.x);c.setAttribute('cy',p.y);c.setAttribute('r',4);c.setAttribute('fill','#5fc4e8');s.appendChild(c);});
+</script></body></html>
