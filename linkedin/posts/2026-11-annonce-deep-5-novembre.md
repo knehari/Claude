@@ -190,16 +190,19 @@ Si vous êtes dans le coin, je serai ravi de revoir des visages connus. Et si vo
 
 ---
 
-## Version D en français : courte et tranchante (demandée par Karim)
+## Version D en français : courte et tranchante (demandée par Karim, révisée)
+
+Révision : distinction explicite entre certificats publics (règle CA/B Forum) et certificats privés/internes (même tendance, rythme plus lent pour des raisons techniques, opérationnelles et de production). Le but de la baisse des durées de vie : être capable de renouveler tout un parc, y compris avec de nouveaux algorithmes.
 
 ```text
 47 jours.
-C'est la durée de vie maximale des certificats TLS publics en mars 2029. Elle est déjà passée à 200 jours en mars 2026.
+C'est la durée de vie maximale des certificats TLS publics en mars 2029, fixée par le CA/B Forum. Elle est déjà passée à 200 jours en mars 2026.
 
-En parallèle, la migration post-quantique impose de remplacer des algorithmes présents dans presque tous nos systèmes.
+Les certificats privés ne sont pas soumis à cette règle. Mais la tendance est la même : des durées de vie plus courtes, à un rythme compatible avec les contraintes techniques et de production.
 
-Deux échéances, un même prérequis : savoir où est sa cryptographie, et pouvoir la changer sans casser la production.
-C'est ça, la crypto-agilité. Et la plupart des organisations n'y sont pas.
+L'enjeu n'est pas de renouveler plus souvent. C'est d'être capable de remplacer tout un parc de certificats, et demain ses algorithmes, vite et sans casser la production.
+
+C'est exactement ce qu'exigera la migration post-quantique. C'est ça, la crypto-agilité. Et la plupart des organisations n'y sont pas.
 
 J'en parlerai le 5 novembre au Luxembourg, où j'ai passé quatre ans sur les PKI gouvernementales (passeport, eID, titre de séjour), au petit-déjeuner organisé par @DEEP :
 → pourquoi le CLM est le point de départ
