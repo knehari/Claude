@@ -25,7 +25,7 @@ Après enregistrement, rouvrez votre profil et vérifiez qu'il n'y a plus de cod
 ```
 Most organisations can't say where their cryptography is. That's the problem I work on.
 
-I've been hands-on with PKI since 2009: the group PKI at BNP Paribas, the French administrative PKI at ANTS, Luxembourg's national PKIs for ePassports and eID at INCERT, and today certificate services across AXA's entities worldwide.
+I've been hands-on with PKI since 2009: the group PKI at BNP Paribas, the French administrative PKI at ANTS, Luxembourg's national PKIs for ePassports and eID at INCERT, and today as product manager for certificate services across AXA's entities worldwide.
 
 Along the way I represented Luxembourg in ISO/IEC JTC 1/SC 17 and ICAO working groups, and contributed to ISO/IEC 27099 and ICAO Doc 9303.
 
@@ -36,14 +36,12 @@ What I focus on now
 
 Before PKI, I spent four years at CNRS modelling quantum transport in nanotransistors. Quantum came back to me through cryptography.
 
-Speaking
-I talk about crypto-agility, PKI modernisation and post-quantum readiness, for technical and executive audiences: keynotes, panels, workshops.
-If you're organising an event on these topics, send me a message.
+I also speak and write about these topics, for technical and executive audiences alike. Always happy to compare notes with people working on the same questions.
 
 Views are my own.
 ```
 
-Après le 5 novembre, ajoutez sous « Speaking » : `Recent: DEEP Cyber Breakfast, Luxembourg (Nov 2026).`
+Après le 5 novembre, complétez la phrase : `I also speak and write about these topics (most recently at DEEP's Cyber Breakfast in Luxembourg), for technical and executive audiences alike.`
 
 ### 1.3 Expérience (20 min)
 Crayon sur chaque poste :
@@ -101,7 +99,7 @@ Profil → « Ajouter une section » → « Recommandé » → « Ajouter une s�
 3. Une ressource : vos slides DEEP en PDF, si l'organisateur et AXA sont d'accord
 
 ### 3.3 Mettre à jour « Infos »
-Ajoutez la ligne `Recent: DEEP Cyber Breakfast, Luxembourg (Nov 2026).`
+Complétez la phrase sur les interventions avec « most recently at DEEP's Cyber Breakfast in Luxembourg » (voir 1.2).
 
 ---
 
