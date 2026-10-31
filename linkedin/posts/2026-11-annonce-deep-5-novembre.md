@@ -152,3 +152,38 @@ Starting in one hour at 1 rue Emile Bian. If you can't be there, you can still f
 - Ne pas mentionner AXA ni de chiffre interne (« Views are my own »).
 - Ne pas mentionner la formation en Inde dans ce post : elle mérite son propre post et brouillerait l'appel à l'action.
 - Ne pas promettre les slides ou un replay sans accord de DEEP.
+
+---
+
+## Version B en français (demandée par Karim)
+
+Traduction de la version B, sans la phrase speaker/trainer. Hashtags gardés en anglais : ils sont plus suivis que leurs équivalents français.
+
+```text
+De 2016 à 2020, j'ai travaillé au Luxembourg sur les PKI gouvernementales derrière le passeport électronique, la carte d'identité électronique et le titre de séjour.
+
+Le 5 novembre, j'y reviens pour intervenir au petit-déjeuner organisé par @DEEP.
+
+Ce qui a changé depuis, c'est le rythme.
+
+Les certificats TLS publics passent de 398 jours à 47 jours d'ici mars 2029. La première étape, à 200 jours, s'applique depuis mars 2026.
+
+La cryptographie post-quantique, c'est remplacer des algorithmes présents dans presque tous nos systèmes.
+
+Les deux mènent au même besoin : la crypto-agilité. Savoir où se trouve sa cryptographie, et pouvoir la changer sans casser la production.
+
+C'est de cela que je parlerai, à partir de 17 ans d'expérience en PKI dans la banque, l'assurance et le secteur public :
+
+→ La gestion du cycle de vie des certificats (CLM), comme première étape
+→ Le post-quantique : ce qui doit commencer maintenant, et ce qui peut attendre
+→ Comment les deux se rejoignent
+
+Jeudi 5 novembre, 8h30-10h30
+1 rue Emile Bian, Luxembourg
+L'événement pourra aussi être suivi à distance.
+Inscription : https://lnkd.in/eF7ieDyU
+
+Si vous êtes dans le coin, je serai ravi de revoir des visages connus. Et si vous avez une question que vous aimeriez que j'aborde, laissez-la en commentaire.
+
+#PKI #CLM #PostQuantum #CryptoAgility #Luxembourg
+```
