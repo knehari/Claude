@@ -1,7 +1,12 @@
-# Agent LinkedIn
+# LinkedIn Management
 
-Agent Claude Code `linkedin-manager` (défini dans `.claude/agents/linkedin-manager.md`).
-Il s'appuie sur le plugin [linkedin-skills](https://github.com/sergebulaev/linkedin-skills).
+Tout ce qui sert à gérer ma présence LinkedIn avec Claude Code :
+
+- **Agent `linkedin-manager`** (`.claude/agents/linkedin-manager.md`) : profil, posts, commentaires, réseau. Il s'appuie sur le plugin [linkedin-skills](https://github.com/sergebulaev/linkedin-skills).
+- **Skill `/linkedin-roast`** (`.claude/skills/linkedin-roast/`, repris de [alexyc9381/linkedin-roast-skill](https://github.com/alexyc9381/linkedin-roast-skill), licence MIT) : cinq relectures indépendantes du profil, puis sa réécriture.
+- **Fichiers de mémoire** (ce dossier) : lus et mis à jour par l'agent.
+
+L'agent et le skill restent dans `.claude/` à la racine du dépôt : c'est là que Claude Code les cherche.
 
 ## Installation du plugin (à faire une fois)
 
@@ -21,6 +26,7 @@ Sans ces clés, l'agent fonctionne en mode brouillon (copier-coller).
 
 ## Utilisation
 
+- `/linkedin-roast mon-profil.pdf` : critique et réécriture du profil
 - « Utilise l'agent linkedin-manager pour auditer mon profil »
 - « linkedin-manager : écris mon post de demain sur … »
 - « linkedin-manager : propose des commentaires sur ces posts : <URL> »
